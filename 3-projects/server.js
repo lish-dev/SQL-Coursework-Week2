@@ -6,8 +6,8 @@ const port = process.env.PORT || 3001;
 const dbConfig = {
   host: "localhost",
   port: 5432,
-  user: "Lisha",
-  password: "ELISHA13",
+  user: "USER",
+  password: "PASSWORD",
   database: "cyf_ecommerce",
 };
 const pool = new Pool(dbConfig);
